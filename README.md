@@ -25,20 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
-.map creates a new array, uses a callback function on each all items in the original array, then returns the new array. Use case would be if youre modifying the contents of array such as changing the casing of an array.
+
+.map creates a new array, uses a callback function on each all items in the original array, then returns the new array. Use case would be if youre modifying the contents of array such as changing the case.
 
 .reduce returns a single value. Using an accumulator and a total, it loops through and adds items up. Use case would be returning total values to you such as goals, ages, or paintings.
 
-.filter takes a callback as a parameter, then a logic check. If the logic is true, it pushes to a new array and returns.
+.filter takes a callback as a parameter, then a logic check. If the logic is true, it pushes to a new array. A use case would be if you wanted to filter an array containing pizza chain objects to see which had a rating of 5 or higher.
 
 
 2. Explain the difference between a callback and a higher order function.
+
 A callback is what is passed into a higher order function.
 
 3. Explain what a closure is.
+
 Closure gives you access to the outer scope.
 
 4. Describe the four principles of the 'this' keyword.
+
 If there is no context, 'this' returns the window. (If it's called in the global scope)
 In implicit binding, 'this' refers to the object it is called inside of. (the object before the dot)
 New binding uses the keyword new, and refers to the specific instance of an object.
@@ -46,7 +50,8 @@ Explicit binding uses call and apply. The bindings for 'this' are explicitly def
 
 
 5. Why do we need super() in an extended class?
-Super calls the parent class so the child class can gain their properties and methods.
+
+Super calls the parent class so the child class can inherit their properties and methods.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
